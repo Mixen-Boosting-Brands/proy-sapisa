@@ -1,4 +1,4 @@
-@import url(./satoshi.css);
+@import url(./css/satoshi.css);
 
 .inicio {
   width: 100%;
@@ -1526,13 +1526,13 @@ img {
   flex-basis: auto;
   background-color: rgba(248, 248, 248, 1);
   border-radius: 40px;
-  padding: 10%;
-  /* justify-content: center;
+  padding: 5%;
+  justify-content: center;
   justify-self: center;
   justify-items: center;
   align-items: center;
   align-self: center;
-  align-content: center; */
+  align-content: center;
   /* @media (max-width: 1440px) {
     .pie-de-pagina-1 {
       padding-left: 24px;
