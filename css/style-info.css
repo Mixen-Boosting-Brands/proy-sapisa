@@ -1,4 +1,4 @@
-@import url(./css/satoshi.css);
+@import url(./satoshi.css);
 
 .inicio {
   width: 100%;
@@ -23,6 +23,7 @@
 }
 
 .inicio .image {
+  filter: brightness(.75);
   position: absolute;
   width: 100%;
   object-fit: cover;
@@ -178,7 +179,7 @@
 
 .inicio .group {
   position: absolute;
-  width: 474.21px;
+  width: 470px;
   height: 48px;
   top: 35px;
   /* left: 206px; */
@@ -192,7 +193,7 @@
 
 .inicio .rectangle-2 {
   position: absolute;
-  width: 105%;
+  width: 103%;
   height: 48px;
   top: 2%;
   bottom: 5%;
@@ -210,7 +211,7 @@
   justify-content: space-between;
   position: absolute;
   top: 4px;
-  left: 0;
+  left: -1%;
   bottom: 4px;
 }
 
@@ -274,7 +275,7 @@ width: 536px;
 height: 1000px;
 
 align-items: flex-end;
-left: 51%;
+left: 38%;
 border-radius: 20px;
 }
 
@@ -693,9 +694,24 @@ img {
   flex-basis: auto;
   background-color: rgba(231, 231, 232, 1);
   border-radius: 40px;
+  padding: 5%;
+  gap: 10%;
+  width: 90%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  /* flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(231, 231, 232, 1);
+  border-radius: 40px;
   padding-left: 5%;
   padding-top: 5%;
-  margin: 5%;
+  margin: 15px; */
 /* @media (max-width: 1440px) {
   .pop-up-abrasivos-1 {
     padding-left: 24px;
@@ -1522,33 +1538,33 @@ img {
 
 .pie-de-pagina-1 {
   flex-grow: 0;
-  flex-shrink: 0;
+  flex-shrink: 1;
   flex-basis: auto;
+  width: 90%;
   background-color: rgba(248, 248, 248, 1);
   border-radius: 40px;
-  padding: 5%;
+  padding: 3%;
   justify-content: center;
   justify-self: center;
   justify-items: center;
   align-items: center;
   align-self: center;
   align-content: center;
-  /* @media (max-width: 1440px) {
+  @media (max-width: 1440px) {
     .pie-de-pagina-1 {
-      padding-left: 24px;
-      padding-right: 24px;
+      padding: 3%;
     }
-  } */
+  }
 }
 
-/* .pie-de-pagina-1 {
+.pie-de-pagina-1 {
   @media (max-width: 768px) {
     .pie-de-pagina-1 {
       padding-left: 16px;
       padding-right: 16px;
     }
   }
-} */
+}
 
 #nombreCompleto {
   width: 517px;
@@ -1575,21 +1591,74 @@ img {
   width: 517px;
   height: 154px;
   border-radius: 25px;
-  padding: 1%;
+  padding: 3%;
   margin: 2%;
 }
 
-#cotizaciones {
-  left: 5%;
+.pie-de-pagina-1 .navbar {
+  display: flex;
+  width: 448px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
 }
 
+.pie-de-pagina-1 .frame-wrapper {
+  position: relative;
+  width: 96px;
+  height: 40px;
+  background-color: #21afe5;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #ffffff14;
+  align-items: center;
+  float: inline-start;
+}
+
+.pie-de-pagina-1 .frame {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.pie-de-pagina-1 .icon-line-home-alt {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.pie-de-pagina-1 .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica Neue-75Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
+
+.pie-de-pagina-1 .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #35363d;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
+
+/* PopUp */
 .popUp {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 2%;
+    margin-top: 2%; */
     /* padding: 80px; */
     width: 100%;
     min-height: 100vh;

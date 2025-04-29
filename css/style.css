@@ -1769,3 +1769,59 @@ img {
 #cotizaciones {
   left: 5%;
 }
+
+.pie-de-pagina-1 .navbar {
+  display: flex;
+  width: 448px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.pie-de-pagina-1 .frame-wrapper {
+  position: relative;
+  width: 96px;
+  height: 40px;
+  background-color: #21afe5;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: #ffffff14;
+  align-items: center;
+  float: inline-start;
+}
+
+.pie-de-pagina-1 .frame {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.pie-de-pagina-1 .icon-line-home-alt {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.pie-de-pagina-1 .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica Neue-75Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
+
+.pie-de-pagina-1 .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #35363d;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
