@@ -2,11 +2,21 @@
 
 .inicio {
   /* width: 1440px; */
-  width: 97%;
+  z-index: 999;
+  width: 1480px;
   height: 1051px;
   background-color: #ffffff;
   overflow: hidden;
   padding: 5%;
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 150px;
+  animation-range-end: 600px;
+}
+
+@keyframes fade-in {
+  from {scale: 100%; opacity: 1;}
+  to {scale: 110%; opacity: 1;}
 }
 
 .inicio .overlap {
@@ -193,6 +203,7 @@
 .inicio .overlap-group-2 {
   position: relative;
   height: 48px;
+  z-index: 1;
 }
 
 .inicio .rectangle-2 {
@@ -286,12 +297,21 @@ border-radius: 20px;
 
 .nuestros-sectores {
   position: relative;
-  width: 1440px;
+  width: 1368px;
   height: 906px;
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
   left: 3%;
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 10px;
+  animation-range-end: 500px;
+}
+
+@keyframes fade-in {
+  from {scale: 90%; opacity: 0;}
+  to {scale: 100%; opacity: 1;}
 }
 
 .nuestros-sectores .div {
@@ -326,6 +346,10 @@ border-radius: 20px;
   left: 160px;
   background-color: #16abe4;
   border-radius: 100px;
+}
+
+.nuestros-sectores .group:hover{
+  transform: scale(1.25);
 }
 
 .nuestros-sectores .div-wrapper {
@@ -364,6 +388,10 @@ border-radius: 20px;
   border-radius: 100px;
 }
 
+.nuestros-sectores .group-wrapper:hover{
+  transform: scale(1.25);
+}
+
 .nuestros-sectores .group-2 {
   position: absolute;
   width: 195px;
@@ -372,6 +400,10 @@ border-radius: 20px;
   left: 468px;
   background-color: #16abe4;
   border-radius: 100px;
+}
+
+.nuestros-sectores .group-2:hover{
+  transform: scale(1.25);
 }
 
 .nuestros-sectores .group-3 {
@@ -384,6 +416,10 @@ border-radius: 20px;
   border-radius: 100px;
 }
 
+.nuestros-sectores .group-3:hover{
+  transform: scale(1.25);
+}
+
 .nuestros-sectores .group-4 {
   position: absolute;
   width: 195px;
@@ -394,6 +430,11 @@ border-radius: 20px;
   border-radius: 100px;
 }
 
+.nuestros-sectores .group-4:hover{
+  transform: scale(1.25);
+}
+
+
 .nuestros-sectores .group-5 {
   position: absolute;
   width: 195px;
@@ -402,6 +443,10 @@ border-radius: 20px;
   left: 776px;
   background-color: #16abe4;
   border-radius: 100px;
+}
+
+.nuestros-sectores .group-5:hover{
+  transform: scale(1.25);
 }
 
 .nuestros-sectores .group-6 {
@@ -414,6 +459,10 @@ border-radius: 20px;
   border-radius: 100px;
 }
 
+.nuestros-sectores .group-6:hover{
+  transform: scale(1.25);
+}
+
 .nuestros-sectores .group-7 {
   position: absolute;
   width: 195px;
@@ -422,6 +471,10 @@ border-radius: 20px;
   left: 1084px;
   background-color: #16abe4;
   border-radius: 100px;
+}
+
+.nuestros-sectores .group-7:hover{
+  transform: scale(1.25);
 }
 
 .nuestros-sectores .text-wrapper-3 {
@@ -436,6 +489,16 @@ border-radius: 20px;
   text-align: center;
   letter-spacing: 0;
   line-height: 26px;
+}
+
+.nuestros-sectores a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nuestros-sectores:hover a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .nuestros-sectores .group-8 {
@@ -825,14 +888,22 @@ img {
   gap: 10px;
   margin-top: 2%;
   /* padding: 80px; */
-  width: 100%;
+  /* width: 1368px; */
   min-height: 100vh;
   margin: 0 auto;
-  max-width: 1440px;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   background-color: rgba(255, 255, 255, 1);
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 10px;
+  animation-range-end: 500px;
+}
+
+@keyframes fade-in {
+  from {scale: 90%; opacity: 0;}
+  to {scale: 100%; opacity: 1;}
 }
 
 .acerca-de-nosotros-1{
@@ -1003,6 +1074,7 @@ footer {
   height: 56px;
   background-color: rgba(10, 158, 219, 1);
   border-radius: 82px;
+  text-align: center;
 }
 
 .button-6 {
@@ -1218,7 +1290,7 @@ footer {
   border-radius: 40px;
   padding: 5%;
   gap: 10%;
-  width: 90%;
+  width: 1368px;
   float: right;
   margin-right: 5%;
   margin-top: 3%;
@@ -1238,6 +1310,15 @@ footer {
       padding-right: 16px;
     }
   } */
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 10px;
+  animation-range-end: 500px;
+}
+
+@keyframes fade-in {
+  from {scale: 90%; opacity: 0;}
+  to {scale: 100%; opacity: 1;}
 }
 
 /*Pie de Página*/
@@ -1720,12 +1801,22 @@ img {
   align-items: center;
   align-self: center;
   align-content: center;
+  width: 1368px;
   /* @media (max-width: 1440px) {
     .pie-de-pagina-1 {
       padding-left: 24px;
       padding-right: 24px;
     }
   } */
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 10px;
+  animation-range-end: 500px;
+}
+
+@keyframes fade-in {
+  from {scale: 90%; opacity: 0;}
+  to {scale: 100%; opacity: 1;}
 }
 
 /* .pie-de-pagina-1 {
@@ -1824,4 +1915,22 @@ img {
   letter-spacing: 0;
   line-height: 17.6px;
   white-space: nowrap;
+}
+
+/* Parallax Effect*/
+.paralax::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg::after {
+  background: linear-gradient(rgba(0,0,0,.5)), rgba(0, 0, 0, .5);
+  background-size: cover;
 }
