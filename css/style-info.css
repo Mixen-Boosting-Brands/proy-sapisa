@@ -276,13 +276,14 @@
 @media (min-width: 992px) {
   .inicio .navbar {
     display: flex;
-    width: 448px;
+    /* width: 448px; */
+    height: 100%;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute;
     top: 4px;
     left: 0;
-    bottom: 4px;
+    bottom: 4px; */
     z-index: 1;
     background-color: #ffffff;
     border-radius: 100px;
