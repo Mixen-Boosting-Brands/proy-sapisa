@@ -1,5 +1,9 @@
 @import url(./satoshi.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media(min-width: 768px){
   .inicio{
     width: 1440px;
@@ -1867,6 +1871,7 @@ img {
   text-transform: none;
   color: var(--text-white);
   margin: 2% 0%;
+  text-align: center;
 }
 
 .node-32 {
@@ -1898,6 +1903,7 @@ img {
   text-transform: none;
   color: var(--text-white);
   margin: 2% 0%;
+  text-align: center;
 }
 
 .node-34 {

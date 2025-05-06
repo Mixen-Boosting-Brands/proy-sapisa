@@ -1,5 +1,9 @@
 @import url(./satoshi.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media(min-width: 768px){
   .inicio{
     width: 100%;
@@ -277,13 +281,14 @@
   .inicio .navbar {
     display: flex;
     /* width: 448px; */
-    height: 100%;
+    height: 90%;
     align-items: center;
     justify-content: space-between;
     /* position: absolute;
     top: 4px;
     left: 0;
     bottom: 4px; */
+    padding: 0;
     z-index: 1;
     background-color: #ffffff;
     border-radius: 100px;
