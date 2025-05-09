@@ -365,80 +365,48 @@
       <div class="container">
         <div class="row" id="contacto">
           <div class="col">
-            <div class="frame-33905-3">
-              <p class="text-4">
-                <span class="text-rgb-22-171-228">Contáctanos, </span>
-                <span class="text-rgb-0-48-52">te damos tu presupuesto personalizado</span
-                >
-              </p>
+            <div class="row">
+              <div class="frame-33905-3">
+                <p class="text-4">
+                  <span class="text-rgb-22-171-228">Contáctanos, </span>
+                  <span class="text-rgb-0-48-52">te damos tu presupuesto personalizado</span
+                  >
+                </p>
             </div>
-            <form action="#contactoBtn" class="row g-3">
-              <div class="col-md-6">
-                <div class="group-1171275579-5">
-                  <div class="form-subscribe-6">
-                    <div class="bg-7"></div>
-                    <p class="text-8">
-                      <!-- <span class="text-rgb-0-48-52">Nombre completo</span> -->
-                    </p>
+            <div class="row">
+              <form>
+                <div class="form-group">
+                  <!-- <label for="nombreCompleto">Address</label> -->
+                  <input type="text" class="form-control" id="nombreCompleto" placeholder="Nombre completo">
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <!-- <label for="inputEmail4">Email</label> -->
+                    <input type="email" class="form-control" id="correoElectronico" placeholder="Email">
                   </div>
-                  <div class="form-subscribe-9">
-                    <div class="bg-10"></div>
-                    <p class="text-11">
-                      <!-- <span class="text-rgb-0-48-52">Correo electrónico</span> -->
-                    </p>
-                    <div class="form-floating">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="nombreCompleto"
-                        placeholder="Nombre completo"
-                      />
-                      <!-- <label for="nombreCompleto">Email address</label> -->
-                    </div>
-                  </div>
-                  <div class="form-subscribe-12">
-                    <div class="bg-13"></div>
-                    <!-- <p class="text-14"><span class="text-rgb-0-48-52">Teléfono</span></p> -->
-                    <div class="form-floating">
-                      <input
-                        type="tel"
-                        class="form-control"
-                        id="telefono"
-                        placeholder="Teléfono"
-                      />
-                      <!-- <label for="telefono">Password</label> -->
-                    </div>
-                  </div>
-                  <div class="form-subscribe-15">
-                    <div class="bg-16"></div>
-                    <div class="form-floating">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="correoElectronico"
-                        placeholder="Correo electrónico"
-                      />
-                      <!-- <label for="correoElectronico">Email address</label> -->
-                    </div>
-                    <!-- <p class="text-19"><span class="text-rgb-0-48-52">Mensaje</span></p> -->
-                    <div class="form-floating">
-                      <textarea
-                        class="form-control"
-                        placeholder="Mensaje"
-                        id="mensaje"
-                      ></textarea>
-                      <!-- <label for="mensaje">Mensaje</label> -->
-                    </div>
-                    <div class="node-17">
-                      <button type="submit" id="contactoBtn" class="text-18">Contáctanos</button>
-                    </div>
+                  <div class="form-group">
+                    <!-- <label for="telefono">Password</label> -->
+                    <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
                   </div>
                 </div>
-              </div>
-            </form>
+                <div class="form-row">
+                  <div class="form-group">
+                    <input input type="text" class="form-control" id="mensaje" placeholder="Mensaje">
+                  </div>
+                  <div class="form-group">
+                      <div class="node-17">
+                        <button type="submit" id="contactoBtn" class="text-18">Contáctanos</button>
+                      </div>
+                    </div>
+                </div>
+              </form>
+            </div>
+            </div>
+            
           </div>
-          <div class="col">
-            <iframe
+          <div class="col" id="mapa">
+            <div class="row">
+              <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.083481731855!2d-106.07282832471115!3d28.627259975667627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea5cac0187b3e3%3A0xe146a8b7c74b489e!2sC.%2020%20de%20Noviembre%20%231010%2C%20Santa%20Rosa%2C%2031050%20Chihuahua%2C%20Chih.!5e0!3m2!1ses!2smx!4v1745524464338!5m2!1ses!2smx"
               width="537"
               height="342"
@@ -447,13 +415,13 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-            <div class="row">
-              <p class="text-29">
+            </div>
+            <div class="row" style="width: 488px;">
+              <div class="col"><p class="text-29">
                 <span class="text-rgb-53-54-61"
                   >Síguenos en nuestras redes sociales:</span
                 >
-              </p>
-              <div class="col"></div>
+              </p></div>
               <div class="col">
                 <div class="social-media-20">
                   <div class="youtube-21">
@@ -477,31 +445,27 @@
                 </div>
               </div>
             </div>
-            <div class="pie-fe-pagina-31">
-              <div class="container">
-                <div class="row">
-                  <div class="col">
-                    <p class="text-30">
-                      <span class="text-rgb-53-54-61"
-                        >Conoce algunos de nuestros productos:</span>
-                    </p>
-                  </div>
+            <div class="row" style="width: 488px;">
+              <div class="col" style="justify-items: flex-start;">
+                <p class="text-30">
+                  <span class="text-rgb-53-54-61"
+                    >Conoce algunos de nuestros productos:</span>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="node-32">
+                  <p class="text-33">
+                    <a href="./img/catalogo-1.png" target="_blank"><span class="text-white">Descarga nuestro catalogo 1</span></a>
+                  </p>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="node-32">
-                      <p class="text-33">
-                        <a href="./img/catalogo-1.png" target="_blank"><span class="text-white">Descarga nuestro catalogo 1</span></a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="node-34">
-                      <p class="text-35">
-                        <a href="./img/catalogo-2.png" target="_blank"><span class="text-white">Descarga nuestro catalogo 2</span></a>
-                      </p>
-                    </div>
-                  </div>
+              </div>
+              <div class="col">
+                <div class="node-34">
+                  <p class="text-35">
+                    <a href="./img/catalogo-2.png" target="_blank"><span class="text-white">Descarga nuestro catalogo 2</span></a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -521,18 +485,21 @@
               <span class="cotizaciones">ventas@sapisa.com.mx</span>
             </div>
             <div class="col">
-              <span class="cotizaciones">(614) 397-8486</span>
+              <span class="cotizaciones" style="text-align: left;">(614) 397-8486</span>
             </div>
             <div class="col">
-              <span class="cotizaciones">Av. 20 de noviembre #1010 Col. Santa Rosa C.P. 31050, Chihuahua, Chih.</span>
+              <span class="cotizaciones" style="text-align: left; display: flex; width: 185%;">Av. 20 de noviembre #1010 Col. Santa Rosa C.P. 31050, Chihuahua, Chih.</span>
             </div>
         </div>
         <div class="row">
           <div class="col" style="left: 25%; margin-top: 10px;">
             <div class="navbar">
               <nav class="navbar-expand-lg navbar-light">
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sapisa-menu-footer" aria-controls="sapisa-menu-footer" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="sapisa-menu-footer">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
                       <div class="frame-wrapper">
                         <div class="frame">
