@@ -277,8 +277,8 @@ html {
 @media (min-width: 768px) {
   .navbar {
     display: flex;
-    width: 100%;
-    height: fit-content;
+    /* width: 100%;
+    height: 100px; */
     align-items: center;
     justify-items: center;
     align-content: center;
@@ -290,7 +290,7 @@ html {
     border: 1px solid;
     border-color: #ffffff14;
     text-align: center;
-    font-size: larger;
+    font-size: 30px;
   }
 }
 
@@ -325,7 +325,7 @@ html {
   display: block;
 }
 
-.nav-item{
+.nav-item {
   align-self: center;
 }
 
@@ -365,16 +365,41 @@ html {
   z-index: 1;
 }
 
-.frame-wrapper {
-  position: relative;
-  width: 96px;
-  height: 45px;
-  background-color: #21afe5;
-  border-radius: 100px;
-  border: 1px solid;
-  border-color: #ffffff14;
-  align-items: center;
-  float: inline-start;
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 3rem !important;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 768px) {
+  .frame-wrapper {
+    position: relative;
+    width: 451px;
+    height: 45px;
+    background-color: #21afe5;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #ffffff14;
+    align-items: center;
+    float: inline-start;
+  }
+}
+
+@media (min-width: 992px) {
+  .frame-wrapper {
+    position: relative;
+    width: 96px;
+    height: 45px;
+    background-color: #21afe5;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #ffffff14;
+    align-items: center;
+    float: inline-start;
+  }
 }
 
 .frame {
@@ -393,7 +418,22 @@ html {
   height: 20px;
 }
 
-.text-wrapper-4 {
+@media (min-width: 768px) {
+  .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica Neue-75Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
+}
+
+@media (min-width: 992px) {
+  .text-wrapper-4 {
   position: relative;
   width: fit-content;
   font-family: "Helvetica Neue-75Bold", Helvetica;
@@ -404,8 +444,24 @@ html {
   line-height: 17.6px;
   white-space: nowrap;
 }
+}
 
-.text-wrapper-5 {
+@media (min-width: 768px) {
+  .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #35363d;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
+}
+
+@media (min-width: 992px) {
+  .text-wrapper-5 {
   position: relative;
   width: fit-content;
   font-family: "Helvetica-Regular", Helvetica;
@@ -415,6 +471,7 @@ html {
   letter-spacing: 0;
   line-height: 17.6px;
   white-space: nowrap;
+}
 }
 
 #carousel-main {
@@ -1809,4 +1866,32 @@ img {
   flex-shrink: 1;
   flex-basis: auto;
   background-color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 768px) {
+  .pie-de-pagina-1 .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .pie-de-pagina-1 .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
