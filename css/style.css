@@ -6,7 +6,7 @@ html {
 
 @media (min-width: 768px) {
   .inicio {
-    width: 100%;
+    width: 1192px;
     height: 1051px;
     background-color: #ffffff;
     overflow: hidden;
@@ -303,6 +303,7 @@ html {
 
 .dropdown-menu {
   border-radius: 40px !important;
+  padding: 15px !important;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -493,7 +494,6 @@ html {
     width: 100%;
     left: 10%;
     margin-top: 3%;
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
@@ -514,7 +514,6 @@ html {
     left: 0;
     margin-right: 5%;
     margin-top: 3%;
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
@@ -522,10 +521,9 @@ html {
 }
 
 .nuestros-sectores .col {
-  animation: fade-in linear;
   animation-timeline: view();
-  animation-range-start: 10px;
-  animation-range-end: 100px;
+  animation-range-start: 7px;
+  animation-range-end: 400px;
 }
 
 .nuestros-sectores .div {
@@ -773,7 +771,23 @@ img {
   height: auto;
 }
 
-.text-7 {
+@media (min-width: 768px) {
+  .text-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-satoshi);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-53-54-61);
+}
+}
+
+@media (min-width: 992px) {
+  .text-7 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -784,6 +798,7 @@ img {
   text-decoration: none;
   text-transform: none;
   color: var(--text-rgb-53-54-61);
+}
 }
 
 .frame-129-5 {
@@ -978,20 +993,24 @@ img {
   color: var(--text-rgb-126-132-146);
 }
 
-.frame-33854-19 {
+
+
+@media (min-width: 768px) {
+  .frame-1707482230-15 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  gap: 8px;
+  align-items: center;
+  gap: 41px;
   padding: 0px;
   flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: auto;
-  width: 150%;
+  width: 100%;
+}
 }
 
-.frame-1707482230-15 {
+@media (min-width: 992px) {
+  .frame-1707482230-15 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -1001,6 +1020,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   width: 100%;
+}
 }
 
 .frame-1707482232-11 {
@@ -1071,7 +1091,6 @@ img {
     flex-shrink: 1;
     flex-basis: auto;
     background-color: rgba(255, 255, 255, 1);
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
@@ -1095,7 +1114,6 @@ img {
     justify-content: center;
     justify-items: center;
     justify-self: center;
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
@@ -1223,6 +1241,10 @@ img {
   flex-shrink: 1;
   border-radius: 110px;
   margin: 3%;
+}
+
+.button-6 a:hover {
+  text-decoration: none;
 }
 
 .ellipse-4-9 {
@@ -1359,7 +1381,7 @@ img {
   flex-basis: auto;
   /* margin: 15%; */
   gap: 10px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 @media (min-width: 768px) {
@@ -1450,7 +1472,6 @@ img {
         justify-content: center;
         justify-items: center;
         position: relative;
-        animation: fade-in linear;
         animation-timeline: view();
         animation-range-start: 10px;
         animation-range-end: 500px;
@@ -1487,7 +1508,6 @@ img {
         padding-right: 16px;
       }
     } */
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
@@ -1603,7 +1623,7 @@ img {
   flex-basis: auto;
   font-family: var(--font-family-satoshi);
   font-weight: 500;
-  font-size: 56px;
+  font-size: 46px;
   letter-spacing: -2%;
   line-height: 120.00000476837158%;
   text-decoration: none;
@@ -1932,6 +1952,10 @@ img {
   text-align: left;
 }
 
+.text-33 a:hover {
+  text-decoration: none;
+}
+
 .node-32 {
   display: flex;
   flex-direction: row;
@@ -1960,6 +1984,10 @@ img {
   color: var(--text-white);
   margin: 2% 0%;
   text-align: left;
+}
+
+.text-35 a:hover {
+  text-decoration: none;
 }
 
 .node-34 {
@@ -2005,7 +2033,6 @@ img {
         padding-right: 24px;
       }
     } */
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
@@ -2034,7 +2061,6 @@ img {
         padding-right: 24px;
       }
     } */
-    animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 10px;
     animation-range-end: 500px;
