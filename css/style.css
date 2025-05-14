@@ -154,7 +154,7 @@ html {
   /* top: 396px; */
   top: 25%;
   left: 3%;
-  font-family: "Satoshi-Bold", Helvetica;
+  font-family: 'Satoshi-Bold', Helvetica;
   font-weight: 700;
   color: transparent;
   font-size: 80px;
@@ -179,7 +179,7 @@ html {
   top: 745px;
   /* left: 13px; */
   left: 3%;
-  font-family: "Satoshi-Bold", Helvetica;
+  font-family: 'Satoshi-Bold', Helvetica;
   font-weight: 400;
   color: #7e8492;
   font-size: 25px;
@@ -193,7 +193,7 @@ html {
 }
 
 .inicio .text-wrapper-3 {
-  font-family: "Satoshi-Medium", Helvetica;
+  font-family: 'Satoshi-Medium', Helvetica;
   font-weight: 500;
 }
 
@@ -277,7 +277,7 @@ html {
   box-sizing: border-box;
   position: relative;
   flex: 1;
-  font-family: "Satoshi-Bold", Helvetica;
+  font-family: 'Satoshi-Bold', Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 16px;
@@ -551,7 +551,7 @@ html {
   .text-wrapper-4 {
     position: relative;
     width: fit-content;
-    font-family: "Helvetica-Bold", Helvetica;
+    font-family: 'Helvetica-Bold', Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 30px;
@@ -565,7 +565,7 @@ html {
   .text-wrapper-4 {
     position: relative;
     width: fit-content;
-    font-family: "Helvetica-Bold", Helvetica;
+    font-family: 'Helvetica-Bold', Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 30px;
@@ -579,7 +579,7 @@ html {
   .text-wrapper-4 {
     position: relative;
     width: fit-content;
-    font-family: "Helvetica-Bold", Helvetica;
+    font-family: 'Helvetica-Bold', Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 16px;
@@ -593,7 +593,7 @@ html {
   .text-wrapper-5 {
     position: relative;
     width: fit-content;
-    font-family: "Helvetica-Light", Helvetica;
+    font-family: 'Helvetica-Light', Helvetica;
     font-weight: 400;
     color: #35363d;
     font-size: 30px;
@@ -607,7 +607,7 @@ html {
   .text-wrapper-5 {
     position: relative;
     width: fit-content;
-    font-family: "Helvetica-Light", Helvetica;
+    font-family: 'Helvetica-Light', Helvetica;
     font-weight: 400;
     color: #35363d;
     font-size: 30px;
@@ -622,7 +622,7 @@ html {
   .text-wrapper-5 {
     position: relative;
     width: fit-content;
-    font-family: "Helvetica-Light", Helvetica;
+    font-family: 'Helvetica-Light', Helvetica;
     font-weight: 400;
     color: #35363d;
     font-size: 16px;
@@ -669,6 +669,7 @@ html {
     top: 0;
     align-items: flex-end;
     border-radius: 20px;
+    z-index: 1;
   }
 }
 
@@ -748,7 +749,7 @@ html {
   width: auto;
   top: 45px;
   /* left: 423px; */
-  font-family: "Satoshi-Medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 700;
   color: transparent;
   font-size: 56px;
@@ -835,7 +836,7 @@ html {
   .nuestros-sectores .p {
     position: relative;
     width: 100%;
-    font-family: "Satoshi-Medium", Helvetica;
+    font-family: 'Satoshi-Medium', Helvetica;
     font-weight: 500;
     color: #ffffff;
     font-size: 35px;
@@ -851,7 +852,7 @@ html {
     width: 195px;
     /* top: 0;
   left: 0; */
-    font-family: "Satoshi-Medium", Helvetica;
+    font-family: 'Satoshi-Medium', Helvetica;
     font-weight: 500;
     color: #ffffff;
     font-size: 21px;
@@ -870,7 +871,7 @@ html {
   width: 493px;
   top: 127px;
   left: 473px; */
-  font-family: "Helvetica-Bold", Helvetica;
+  font-family: 'Helvetica-Bold', Helvetica;
   font-weight: 700;
   color: #35363d;
   font-size: 24px;
@@ -1005,7 +1006,7 @@ img {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-    font-family: "Satoshi-Bold";
+    font-family: 'Satoshi-Bold';
     font-weight: 700;
     font-size: 25px;
     line-height: 150%;
@@ -1020,7 +1021,7 @@ img {
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-    font-family: "Satoshi-Bold";
+    font-family: 'Satoshi-Bold';
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
@@ -1051,10 +1052,10 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 700;
   font-size: 14px;
-  letter-spacing: 7%;
+  letter-spacing: 1px;
   line-height: 129.99999523162842%;
   text-decoration: none;
   text-transform: uppercase;
@@ -1084,7 +1085,6 @@ img {
   .frame-1707480507-9 {
     display: flex;
     position: relative;
-    left: 310%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -1104,7 +1104,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 700;
   font-size: 56px;
   letter-spacing: -2px;
@@ -1117,7 +1117,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
@@ -1142,7 +1142,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 700;
   font-size: 100px;
   letter-spacing: -2px;
@@ -1156,7 +1156,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
@@ -1199,7 +1199,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 700;
   font-size: 100px;
   letter-spacing: -2px;
@@ -1226,7 +1226,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
@@ -1443,7 +1443,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 500;
   font-size: 56;
 }
@@ -1452,7 +1452,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 700;
   font-size: 64px;
   line-height: 108.00000429153442%;
@@ -1465,7 +1465,7 @@ img {
   flex-shrink: 1;
   flex-basis: auto;
   opacity: 0.699999988079071;
-  font-family: "Helvetica-Light";
+  font-family: 'Helvetica-Light';
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
@@ -1501,7 +1501,7 @@ img {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 100;
   font-size: 16px;
   line-height: 26px;
@@ -1903,7 +1903,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Medium";
+  font-family: 'Satoshi-Medium';
   font-weight: 400;
   font-size: 17px;
   justify-items: center;
@@ -1944,13 +1944,14 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 500;
   font-size: 46px;
   letter-spacing: -2%;
   line-height: 120.00000476837158%;
   text-decoration: none;
   text-transform: none;
+  text-align: left;
   color: var(--text-rgb-22-171-228);
 }
 
@@ -2084,6 +2085,7 @@ img {
   border-radius: 88.28451538085938px;
   position: absolute;
   bottom: 17px;
+  margin: 20px 20px 0px 20px;
 }
 
 .text-19 {
@@ -2234,13 +2236,14 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: var(--font-family-satoshi);
+  font-family: "Satoshi-Medium";
   font-weight: 500;
   font-size: 18px;
   letter-spacing: -2%;
   line-height: 120%;
   text-decoration: none;
   text-transform: none;
+  text-align: left;
   color: var(--text-rgb-53-54-61);
   width: 315px;
   margin: 0;
@@ -2444,6 +2447,8 @@ img {
   width: 600px;
   height: 70px;
   margin: 2px;
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2453,6 +2458,8 @@ img {
   width: 400px;
   height: 50px;
   margin: 2px;
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2462,6 +2469,8 @@ img {
   width: 300px;
   height: 70px;
   margin: 2px;
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2471,6 +2480,8 @@ img {
   width: 195px;
   height: 50px;
   margin: 2px;
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2480,6 +2491,8 @@ img {
   width: 300px;
   height: 70px;
   margin: 2px;
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2489,6 +2502,8 @@ img {
   width: 195px;
   height: 50px;
   margin: 2px;
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2502,6 +2517,8 @@ img {
   margin: 2px;
   /* padding: 1%;
   margin: 2%; */
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2515,6 +2532,8 @@ img {
   margin: 2px;
   /* padding: 1%;
   margin: 2%; */
+  background-color: #F1F1F1;
+  border: none;
 }
 }
 
@@ -2523,7 +2542,7 @@ img {
   overflow: visible;
 } */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .pie-de-pagina-1 .navbar {
     display: none;
     width: fit-content;
@@ -2570,7 +2589,7 @@ img {
 .pie-de-pagina-1 .text-wrapper-4 {
   position: relative;
   width: fit-content;
-  font-family: "Helvetica-Bold", Helvetica;
+  font-family: 'Helvetica-Bold', Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 16px;
@@ -2582,7 +2601,7 @@ img {
 .pie-de-pagina-1 .text-wrapper-5 {
   position: relative;
   width: fit-content;
-  font-family: "Helvetica-Light", Helvetica;
+  font-family: 'Helvetica-Light', Helvetica;
   font-weight: 400;
   color: #35363d;
   font-size: 16px;

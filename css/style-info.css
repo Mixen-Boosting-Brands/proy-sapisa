@@ -865,23 +865,6 @@ html {
   color: var(--text-white);
 }
 
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  /* min-height: 100vh; */
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .image-588255082-3 {
   flex-grow: 0;
@@ -1411,23 +1394,7 @@ img {
   align-self: center;
 }
 
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  width: 100%;
-  /* min-height: 100vh; */
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .section-2 {
   flex-grow: 0;
@@ -1439,13 +1406,14 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 500;
   font-size: 46px;
   letter-spacing: -2%;
   line-height: 120.00000476837158%;
   text-decoration: none;
   text-transform: none;
+  text-align: left;
   color: var(--text-rgb-22-171-228);
 }
 
@@ -1579,6 +1547,7 @@ img {
   border-radius: 88.28451538085938px;
   position: absolute;
   bottom: 17px;
+  margin: 20px 20px 0px 20px;
 }
 
 .text-19 {
@@ -1736,6 +1705,7 @@ img {
   line-height: 120%;
   text-decoration: none;
   text-transform: none;
+  text-align: left;
   color: var(--text-rgb-53-54-61);
   width: 315px;
   margin: 0;
@@ -1901,6 +1871,8 @@ img {
     width: 600px;
     height: 70px;
     margin: 2px;
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1910,6 +1882,8 @@ img {
     width: 400px;
     height: 50px;
     margin: 2px;
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1919,6 +1893,8 @@ img {
     width: 300px;
     height: 70px;
     margin: 2px;
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1928,6 +1904,8 @@ img {
     width: 195px;
     height: 50px;
     margin: 2px;
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1937,6 +1915,8 @@ img {
     width: 300px;
     height: 70px;
     margin: 2px;
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1946,6 +1926,8 @@ img {
     width: 195px;
     height: 50px;
     margin: 2px;
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1959,6 +1941,8 @@ img {
     margin: 2px;
     /* padding: 1%;
   margin: 2%; */
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
@@ -1972,10 +1956,12 @@ img {
     margin: 2px;
     /* padding: 1%;
   margin: 2%; */
+    background-color: #f1f1f1;
+    border: none;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .pie-de-pagina-1 .navbar {
     display: none;
     width: fit-content;
