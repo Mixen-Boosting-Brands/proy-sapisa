@@ -1071,10 +1071,10 @@ html {
 
 .text-rgb-22-171-228 {
   color: var(--text-rgb-22-171-228);
+  font-family: 'Satoshi-Medium';
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
   font-weight: 500;
   font-size: 56;
 }
@@ -1083,7 +1083,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: 'Satoshi-Medium';
   font-weight: 700;
   font-size: 64px;
   line-height: 108.00000429153442%;
@@ -1385,7 +1385,7 @@ html {
   flex-basis: auto;
   font-family: 'Satoshi-Medium';
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   justify-items: center;
   justify-content: center;
   justify-self: center;
@@ -1605,9 +1605,8 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  fill: rgba(0, 48, 52, 1);
-  border: none;
-  outline: none;
+  width: 100%;
+  height: auto;
 }
 
 .ri-instagram-fill-24 {
@@ -1638,6 +1637,7 @@ html {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  justify-self: flex-end;
   gap: 15px;
   flex-grow: 0;
   flex-shrink: 1;
