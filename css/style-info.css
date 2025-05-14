@@ -8,9 +8,9 @@ html {
 @media (min-width: 768px) {
   .inicio {
     position: relative;
-    left: 7%;
+    left: 15%;
     width: 100%;
-    height: 400px;
+    height: 410px;
     background-color: #ffffff;
     overflow: hidden;
     padding: 5% 0;
@@ -977,7 +977,7 @@ img {
     padding: 5%;
     gap: 10%;
     width: 100%;
-    left: 7%;
+    left: 15%;
     margin-top: 3%;
     align-items: center;
     justify-content: center;
@@ -1246,7 +1246,7 @@ img {
     width: 100%;
     margin-top: 3%;
     text-align: center;
-    left: 7%;
+    left: 15%;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1790,7 +1790,7 @@ img {
     align-self: center;
     align-content: center;
     width: 100%;
-    left: 7%;
+    left: 15%;
     /* @media (max-width: 1440px) {
       .pie-de-pagina-1 {
         padding-left: 24px;
@@ -1842,28 +1842,62 @@ img {
   }
 }
 
-#nombreCompleto {
+@media (min-width: 768px) {
+  #nombreCompleto {
+  border-radius: 88.28px;
+  width: 600px;
+  height: 70px;
+  margin: 2px;
+}
+}
+
+@media (min-width: 992px) {
+  #nombreCompleto {
   border-radius: 88.28px;
   width: 400px;
   height: 50px;
   margin: 2px;
 }
+}
 
-#telefono {
+@media (min-width: 768px) {
+  #telefono {
+  border-radius: 88.28px;
+  width: 300px;
+  height: 70px;
+  margin: 2px;
+}
+}
+
+@media (min-width: 992px) {
+  #telefono {
   border-radius: 88.28px;
   width: 195px;
   height: 50px;
   margin: 2px;
 }
+}
 
-#correoElectronico {
+@media (min-width: 768px) {
+  #correoElectronico {
+  border-radius: 88.28px;
+  width: 300px;
+  height: 70px;
+  margin: 2px;
+}
+}
+
+@media (min-width: 992px) {
+  #correoElectronico {
   border-radius: 88.28px;
   width: 195px;
   height: 50px;
   margin: 2px;
 }
+}
 
-#mensaje {
+@media (min-width: 768px) {
+  #mensaje {
   /* width: 517px;
   height: 154px; */
   border-radius: 25px;
@@ -1872,6 +1906,20 @@ img {
   margin: 2px;
   /* padding: 1%;
   margin: 2%; */
+}
+}
+
+@media (min-width: 992px) {
+  #mensaje {
+  /* width: 517px;
+  height: 154px; */
+  border-radius: 25px;
+  width: 500px;
+  height: 151px;
+  margin: 2px;
+  /* padding: 1%;
+  margin: 2%; */
+}
 }
 
 .pie-de-pagina-1 .navbar {
