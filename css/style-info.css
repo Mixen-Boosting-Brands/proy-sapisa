@@ -240,6 +240,15 @@ html {
   z-index: 1;
 }
 
+.button a {
+  color: #ffffff;
+}
+
+.button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .button-base {
     display: none;
@@ -1150,6 +1159,9 @@ img {
   opacity: 0.699999988079071;
   border: none;
   outline: none;
+  left: 0;
+  top: 10%;
+  position: absolute;
 }
 
 .ellipse-5-10 {
@@ -1159,6 +1171,9 @@ img {
   opacity: 0.699999988079071;
   border: none;
   outline: none;
+  bottom: 25%;
+  right: 0;
+  position: absolute;
 }
 
 .logo {

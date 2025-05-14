@@ -229,6 +229,15 @@ html {
   z-index: 1;
 }
 
+.button a {
+  color: #ffffff;
+}
+
+.button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .button-base {
     display: none;
