@@ -396,6 +396,7 @@ html {
     bottom: 4px; */
     padding: 0 !important;
     z-index: 1;
+    background-color: rgba(241, 241, 241, .7);
   }
 }
 
@@ -688,12 +689,17 @@ html {
 
 @media (min-width: 768px) {
   .nuestros-sectores {
-    background-color: #ffffff;
-    border-radius: 40px;
     position: relative;
-    padding: 5%;
-    width: 100%;
+    width: 90%;
+    /* height: 906px; */
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    float: right;
     left: 15%;
+    margin-right: 5%;
     margin-top: 3%;
     animation-timeline: view();
     animation-range-start: 10px;
@@ -901,7 +907,7 @@ html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .nuestros-sectores .row {
     display: -ms-flexbox;
     display: flex;
@@ -910,6 +916,18 @@ html {
     margin-right: -15px;
     margin-left: -15px;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .nuestros-sectores .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row;
   }
 }
 
@@ -2324,7 +2342,7 @@ img {
     flex-basis: auto;
     background-color: rgba(248, 248, 248, 1);
     border-radius: 40px;
-    padding: 10%;
+    padding: 5%;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -2352,7 +2370,7 @@ img {
     flex-basis: auto;
     background-color: rgba(248, 248, 248, 1);
     border-radius: 40px;
-    padding: 10%;
+    padding: 5%;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -2479,7 +2497,7 @@ img {
   /* width: 517px;
   height: 154px; */
   border-radius: 25px;
-  width: 400px;
+  width: 500px;
   height: 151px;
   margin: 2px;
   /* padding: 1%;
@@ -2492,7 +2510,7 @@ img {
   /* width: 517px;
   height: 154px; */
   border-radius: 25px;
-  width: 500px;
+  width: 400px;
   height: 151px;
   margin: 2px;
   /* padding: 1%;

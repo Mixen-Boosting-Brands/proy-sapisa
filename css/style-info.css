@@ -374,6 +374,7 @@ html {
     bottom: 4px; */
     padding: 0 !important;
     z-index: 1;
+    background-color: rgba(241, 241, 241, .7);
   }
 }
 
