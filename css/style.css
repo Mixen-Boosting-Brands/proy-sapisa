@@ -131,7 +131,7 @@ html {
     height: 150px;
     /* top: 78px; */
     /* top: 3%;*/
-    left: 25%;
+    left: 0;
     /* float: left; */
     object-fit: cover;
   }
