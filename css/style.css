@@ -2523,16 +2523,24 @@ img {
   overflow: visible;
 } */
 
-.pie-de-pagina-1 .navbar {
-  display: flex;
-  width: fit-content;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  background-color: #ffffff;
-  border-radius: 100px;
-  border: 1px solid !important;
-  border-color: #ffffff14 !important;
+@media (min-width: 992px) {
+  .pie-de-pagina-1 .navbar {
+    display: none;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+  }
+}
+
+@media (min-width: 992px) {
+  .pie-de-pagina-1 .navbar {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+  }
 }
 
 .pie-de-pagina-1 .frame-wrapper {
@@ -2594,6 +2602,7 @@ img {
     align-content: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 }
 
