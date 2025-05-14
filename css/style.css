@@ -1446,8 +1446,8 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
-  font-weight: 500;
+  font-family: 'Satoshi-Bold';
+  font-weight: 700;
   font-size: 56;
 }
 
@@ -1455,7 +1455,7 @@ img {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: "Satoshi-Bold";
+  font-family: 'Satoshi-Bold';
   font-weight: 700;
   font-size: 64px;
   line-height: 108.00000429153442%;

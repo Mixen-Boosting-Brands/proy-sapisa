@@ -1071,11 +1071,11 @@ html {
 
 .text-rgb-22-171-228 {
   color: var(--text-rgb-22-171-228);
-  font-family: 'Satoshi-Medium';
+  font-family: 'Satoshi-Bold';
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 56;
 }
 
@@ -1083,7 +1083,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: 'Satoshi-Bold';
   font-weight: 700;
   font-size: 64px;
   line-height: 108.00000429153442%;
