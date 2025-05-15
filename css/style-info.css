@@ -546,10 +546,9 @@ html {
   .frame {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 0;
     position: relative;
     top: 10%;
-    left: 5%;
     /* background-color: #21afe5; */
   }
 }
@@ -2321,4 +2320,8 @@ html {
     justify-content: flex-end;
     align-items: center;
   }
+}
+
+form {
+  margin-bottom: 35px;
 }
