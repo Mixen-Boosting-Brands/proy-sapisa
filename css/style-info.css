@@ -950,6 +950,10 @@ html {
   color: var(--text-rgb-53-54-61);
 }
 
+.pop-up-abrasivos-1 ul{
+  margin-left: 30px;
+}
+
 .group-1171275569-5 {
   flex-grow: 0;
   flex-shrink: 1;
@@ -1059,7 +1063,7 @@ html {
     flex-basis: auto;
     background-color: rgba(231, 231, 232, 1);
     border-radius: 40px;
-    padding: 5% 0% 0% 5%;
+    padding: 5% 0% 5% 5%;
     gap: 10%;
     width: 90%;
     left: 0;
