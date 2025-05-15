@@ -852,8 +852,7 @@ html {
     align-items: center;
     align-self: center;
     justify-self: center;
-    float: right;
-    left: 15%;
+    left: 12%;
     margin-right: 5%;
     margin-top: 3%;
     animation-timeline: view();
