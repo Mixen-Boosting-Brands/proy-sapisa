@@ -1719,10 +1719,10 @@ img {
     justify-items: center;
     position: relative;
     gap: 10px;
-    left: 15%;
+    left: 6%;
     margin-top: 2%;
     /* padding: 80px; */
-    width: 90%;
+    width: 110%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -1744,10 +1744,10 @@ img {
     justify-items: center;
     position: relative;
     gap: 10px;
-    left: 15%;
+    left: 6%;
     margin-top: 2%;
     /* padding: 80px; */
-    width: 90%;
+    width: 110%;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -2154,10 +2154,10 @@ img {
     background-color: rgba(53, 54, 61, 1);
     border-radius: 40px;
     padding: 5%;
-    width: 90%;
+    width: 110%;
     margin-top: 3%;
     text-align: center;
-    left: 15%;
+    left: 6%;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -2176,10 +2176,10 @@ img {
     background-color: rgba(53, 54, 61, 1);
     border-radius: 40px;
     padding: 5%;
-    width: 90%;
+    width: 110%;
     margin-top: 3%;
     text-align: center;
-    left: 15%;
+    left: 6%;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -2834,8 +2834,8 @@ img {
     align-items: center;
     align-self: center;
     align-content: center;
-    width: 90%;
-    left: 15%;
+    width: 110%;
+    left: 6%;
     /* @media (max-width: 1440px) {
       .pie-de-pagina-1 {
         padding-left: 24px;
@@ -2862,8 +2862,8 @@ img {
     align-items: center;
     align-self: center;
     align-content: center;
-    width: 90%;
-    left: 15%;
+    width: 110%;
+    left: 6%;
     /* @media (max-width: 1440px) {
       .pie-de-pagina-1 {
         padding-left: 24px;
