@@ -908,13 +908,12 @@ html {
   }
 } */
 
-@media (min-width: 1400px) {
+
   .nuestros-sectores .col {
     animation-timeline: view();
-    animation-range-start: 7px;
-    animation-range-end: 400px;
+    animation-range-start: 1px;
+    animation-range-end: 600px;
   }
-}
 
 .nuestros-sectores .div {
   /* position: absolute; */
