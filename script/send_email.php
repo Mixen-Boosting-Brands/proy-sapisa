@@ -3,8 +3,8 @@ if($_SERVER['REQUEST_METHOD'] != 'POST' ){
     header("Location: ../index.html" );
 }
 
-require 'phpmailer/PHPMailer.php';
-require 'phpmailer/Exception.php';
+require '../phpmailer/PHPMailer.php';
+require '../phpmailer/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 
