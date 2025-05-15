@@ -1020,7 +1020,7 @@ img {
     flex-basis: auto;
     font-family: "Satoshi-Bold";
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 150%;
     text-decoration: none;
     text-transform: none;
@@ -1043,14 +1043,30 @@ img {
   }
 }
 
-.frame-129-5 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(33, 175, 229, 1);
-  border-radius: 50px;
-  padding: 5%;
-  width: 480px;
+@media (min-width: 768px) {
+  .frame-129-5 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(33, 175, 229, 1);
+    border-radius: 50px;
+    padding: 5%;
+    width: 750px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .frame-129-5 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgba(33, 175, 229, 1);
+    border-radius: 50px;
+    padding: 5%;
+    width: 480px;
+    margin-bottom: 0;
+  }
 }
 
 .group-130-4 {
@@ -1140,17 +1156,34 @@ img {
   color: var(--text-rgb-126-132-146);
 }
 
-.frame-1707482231-12 {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
+@media (min-width: 768px) {
+  .frame-1707482231-12 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .frame-1707482231-12 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
 }
 
 .text-17 {
@@ -1952,7 +1985,7 @@ img {
     flex-basis: auto;
     font-family: "Satoshi-Bold";
     font-weight: 500;
-    font-size: 46px;
+    font-size: 60px;
     letter-spacing: -2%;
     line-height: 120.00000476837158%;
     text-decoration: none;
@@ -2287,14 +2320,14 @@ img {
     flex-basis: auto;
     font-family: "Satoshi-Medium";
     font-weight: 500;
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: -2%;
     line-height: 120%;
     text-decoration: none;
     text-transform: none;
     text-align: left;
     color: var(--text-rgb-53-54-61);
-    width: 100%;
+    width: 550px;
     margin: 0;
   }
 }
@@ -2318,7 +2351,24 @@ img {
   }
 }
 
-.text-30 {
+@media (min-width: 768px) {
+  .text-30 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: "Satoshi-Medium";
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: -2%;
+  line-height: 120%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-53-54-61);
+}
+}
+
+@media (min-width: 992px) {
+  .text-30 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -2330,6 +2380,7 @@ img {
   text-decoration: none;
   text-transform: none;
   color: var(--text-rgb-53-54-61);
+}
 }
 
 .text-33 {
@@ -2514,10 +2565,11 @@ img {
   #nombreCompleto {
     border-radius: 88.28px;
     width: 600px;
-    height: 70px;
+    height: 80px;
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2529,6 +2581,7 @@ img {
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
@@ -2536,10 +2589,11 @@ img {
   #telefono {
     border-radius: 88.28px;
     width: 300px;
-    height: 70px;
+    height: 80px;
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2551,6 +2605,7 @@ img {
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
@@ -2558,10 +2613,11 @@ img {
   #correoElectronico {
     border-radius: 88.28px;
     width: 300px;
-    height: 70px;
+    height: 80px;
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2573,6 +2629,7 @@ img {
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
@@ -2588,6 +2645,7 @@ img {
   margin: 2%; */
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2603,6 +2661,7 @@ img {
   margin: 2%; */
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 

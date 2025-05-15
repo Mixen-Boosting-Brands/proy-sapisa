@@ -1790,14 +1790,14 @@ html {
     flex-basis: auto;
     font-family: "Satoshi-Medium";
     font-weight: 500;
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: -2%;
     line-height: 120%;
     text-decoration: none;
     text-transform: none;
     text-align: left;
     color: var(--text-rgb-53-54-61);
-    width: 100%;
+    width: 550px;
     margin: 0;
   }
 }
@@ -1821,7 +1821,24 @@ html {
   }
 }
 
-.text-30 {
+@media (min-width: 768px) {
+  .text-30 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: "Satoshi-Medium";
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: -2%;
+  line-height: 120%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-53-54-61);
+}
+}
+
+@media (min-width: 992px) {
+  .text-30 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1833,6 +1850,7 @@ html {
   text-decoration: none;
   text-transform: none;
   color: var(--text-rgb-53-54-61);
+}
 }
 
 .text-33 {
@@ -1979,10 +1997,11 @@ html {
   #nombreCompleto {
     border-radius: 88.28px;
     width: 600px;
-    height: 70px;
+    height: 80px;
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -1994,6 +2013,7 @@ html {
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
@@ -2001,10 +2021,11 @@ html {
   #telefono {
     border-radius: 88.28px;
     width: 300px;
-    height: 70px;
+    height: 80px;
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2016,6 +2037,7 @@ html {
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
@@ -2023,10 +2045,11 @@ html {
   #correoElectronico {
     border-radius: 88.28px;
     width: 300px;
-    height: 70px;
+    height: 80px;
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2038,6 +2061,7 @@ html {
     margin: 2px;
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
@@ -2053,6 +2077,7 @@ html {
   margin: 2%; */
     background-color: #f1f1f1;
     border: none;
+    font-size: 25px;
   }
 }
 
@@ -2068,6 +2093,7 @@ html {
   margin: 2%; */
     background-color: #f1f1f1;
     border: none;
+    font-size: 1rem;
   }
 }
 
