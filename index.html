@@ -646,7 +646,7 @@
             <div class="row"></div>
             <div class="row"></div>
             <div class="row">
-              <form>
+              <form action="./script/send_email.php" method="post">
                 <div class="form-row">
                   <div class="form-group">
                     <!-- <label for="nombreCompleto">Address</label> -->
@@ -655,6 +655,8 @@
                       class="form-control"
                       id="nombreCompleto"
                       placeholder="Nombre completo"
+                      name="nombre"
+                      required
                     />
                   </div>
                 </div>
@@ -666,6 +668,8 @@
                       class="form-control"
                       id="correoElectronico"
                       placeholder="Email"
+                      name="email"
+                      required
                     />
                   </div>
                   <div class="form-group">
@@ -675,17 +679,19 @@
                       class="form-control"
                       id="telefono"
                       placeholder="Teléfono"
+                      name="telefono"
+                      required
                     />
                   </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group">
                     <textarea
-                      input
-                      type="text"
                       class="form-control"
                       id="mensaje"
                       placeholder="Mensaje"
+                      name="mensaje"
+                      required
                     ></textarea>
                   </div>
                   <div class="form-group">
