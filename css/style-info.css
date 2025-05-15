@@ -134,7 +134,7 @@ html {
   .inicio .somos-distribuidores {
     /* position: absolute; */
     top: 100px;
-    font-family: 'Satoshi-Bold', Helvetica;
+    font-family: "Satoshi-Bold", Helvetica;
     font-weight: 700;
     color: transparent;
     font-size: 60px;
@@ -156,7 +156,7 @@ html {
     position: absolute;
     top: 150px;
     width: 100%;
-    font-family: 'Satoshi-Bold', Helvetica;
+    font-family: "Satoshi-Bold", Helvetica;
     font-weight: 700;
     color: transparent;
     font-size: 80px;
@@ -191,7 +191,7 @@ html {
   top: 745px;
   /* left: 13px; */
   left: -3%;
-  font-family: 'Satoshi-Bold', Helvetica;
+  font-family: "Satoshi-Bold", Helvetica;
   font-weight: 400;
   color: #7e8492;
   font-size: 25px;
@@ -205,7 +205,7 @@ html {
 }
 
 .inicio .text-wrapper-3 {
-  font-family: 'Satoshi-Medium', Helvetica;
+  font-family: "Satoshi-Medium", Helvetica;
   font-weight: 500;
 }
 
@@ -552,7 +552,7 @@ html {
   .text-wrapper-4 {
     position: relative;
     width: fit-content;
-    font-family: 'Helvetica-Bold', Helvetica;
+    font-family: "Helvetica-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 30px;
@@ -566,7 +566,7 @@ html {
   .text-wrapper-4 {
     position: relative;
     width: fit-content;
-    font-family: 'Helvetica-Bold', Helvetica;
+    font-family: "Helvetica-Bold", Helvetica;
     font-weight: 700;
     color: #ffffff;
     font-size: 16px;
@@ -580,7 +580,7 @@ html {
   .text-wrapper-5 {
     position: relative;
     width: fit-content;
-    font-family: 'Helvetica-Light', Helvetica;
+    font-family: "Helvetica-Light", Helvetica;
     font-weight: 400;
     color: #35363d;
     font-size: 30px;
@@ -594,7 +594,7 @@ html {
   .text-wrapper-5 {
     position: relative;
     width: fit-content;
-    font-family: 'Helvetica-Light', Helvetica;
+    font-family: "Helvetica-Light", Helvetica;
     font-weight: 400;
     color: #35363d;
     font-size: 30px;
@@ -609,7 +609,7 @@ html {
   .text-wrapper-5 {
     position: relative;
     width: fit-content;
-    font-family: 'Helvetica-Light', Helvetica;
+    font-family: "Helvetica-Light", Helvetica;
     font-weight: 400;
     color: #35363d;
     font-size: 16px;
@@ -647,7 +647,7 @@ html {
   width: auto;
   top: 45px;
   left: 423px;
-  font-family: 'Satoshi-Bold', Helvetica;
+  font-family: "Satoshi-Bold", Helvetica;
   font-weight: 700;
   color: transparent;
   font-size: 56px;
@@ -689,7 +689,7 @@ html {
   width: 166px;
   top: 0;
   left: 0;
-  font-family: 'Satoshi-Medium', Helvetica;
+  font-family: "Satoshi-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 20px;
@@ -777,7 +777,7 @@ html {
   width: 493px;
   top: 127px;
   left: 473px;
-  font-family: 'Helvetica-Bold', Helvetica;
+  font-family: "Helvetica-Bold", Helvetica;
   font-weight: 700;
   color: #35363d;
   font-size: 24px;
@@ -858,13 +858,12 @@ html {
 
 .text-rgb-22-171-228 {
   color: var(--text-rgb-22-171-228);
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
 }
 
 .text-white {
   color: var(--text-white);
 }
-
 
 .image-588255082-3 {
   flex-grow: 0;
@@ -874,30 +873,57 @@ html {
   height: auto;
 }
 
-.image-588255082-2 {
+@media (min-width: 768px) {
+  .image-588255082-2 {
+    display: none;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    mix-blend-mode: multiply;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-588255082-2 {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    margin-bottom: 15%;
+  }
+}
+
+.soldaduras {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   mix-blend-mode: multiply;
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .text-6 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   font-weight: 700;
   font-size: 64px;
   line-height: 108.00000429153442%;
   text-decoration: none;
+  width: 100%;
 }
 
 .text-7 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Helvetica-Light';
+  font-family: "Helvetica-Light";
   font-weight: 100;
   line-height: 108%;
   letter-spacing: 0;
@@ -906,11 +932,16 @@ html {
   color: var(--text-rgb-22-171-228);
 }
 
+#leyenda {
+  justify-items: flex-start;
+}
+
 .text-8-popup {
   flex-grow: 0;
   flex-shrink: 1;
+  width: 100%;
   flex-basis: auto;
-  font-family: 'Helvetica-Light';
+  font-family: "Helvetica-Light";
   font-weight: 200;
   font-size: 26px;
   line-height: 108%;
@@ -943,7 +974,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   font-weight: 700;
   font-size: 16px;
   line-height: 108.00000429153442%;
@@ -976,7 +1007,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   font-weight: 700;
   font-size: 16px;
   line-height: 108.00000429153442%;
@@ -994,6 +1025,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -1069,9 +1101,9 @@ html {
   color: var(--text-white);
 }
 
-.text-rgb-22-171-228 {
+.text-rgb-22-171-228-md {
   color: var(--text-rgb-22-171-228);
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
@@ -1083,7 +1115,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   font-weight: 700;
   font-size: 64px;
   line-height: 108.00000429153442%;
@@ -1096,7 +1128,7 @@ html {
   flex-shrink: 1;
   flex-basis: auto;
   opacity: 0.699999988079071;
-  font-family: 'Helvetica-Light';
+  font-family: "Helvetica-Light";
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
@@ -1132,7 +1164,7 @@ html {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
   font-weight: 100;
   font-size: 16px;
   line-height: 26px;
@@ -1383,7 +1415,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
   font-weight: 400;
   font-size: 18px;
   justify-items: center;
@@ -1394,19 +1426,35 @@ html {
   align-self: center;
 }
 
-
-
 .section-2 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
 }
 
-.text-4 {
+@media (min-width: 768px) {
+  .text-4 {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
+  font-weight: 500;
+  font-size: 46px;
+  letter-spacing: -2%;
+  line-height: 120.00000476837158%;
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+  color: var(--text-rgb-22-171-228);
+}
+}
+
+@media (min-width: 992px) {
+  .text-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: "Satoshi-Bold";
   font-weight: 500;
   font-size: 46px;
   letter-spacing: -2%;
@@ -1415,6 +1463,7 @@ html {
   text-transform: none;
   text-align: left;
   color: var(--text-rgb-22-171-228);
+}
 }
 
 .frame-33905-3 {
@@ -1467,7 +1516,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   font-weight: normal;
   font-size: 16px;
   line-height: 110.00000238418579%;
@@ -1494,7 +1543,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Bold';
+  font-family: "Satoshi-Bold";
   font-weight: normal;
   font-size: 16px;
   line-height: 110.00000238418579%;
@@ -1648,7 +1697,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
   font-weight: 500;
   font-size: 24px;
   letter-spacing: -2%;
@@ -1669,7 +1718,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
   font-weight: 500;
   font-size: 24px;
   letter-spacing: -2%;
@@ -1698,7 +1747,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
   font-weight: 500;
   font-size: 18px;
   letter-spacing: -2%;
@@ -1715,7 +1764,7 @@ html {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  font-family: 'Satoshi-Medium';
+  font-family: "Satoshi-Medium";
   font-weight: 500;
   font-size: 18px;
   letter-spacing: -2%;
@@ -2008,7 +2057,7 @@ html {
 .pie-de-pagina-1 .text-wrapper-4 {
   position: relative;
   width: fit-content;
-  font-family: 'Helvetica-Bold', Helvetica;
+  font-family: "Helvetica-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 16px;
@@ -2020,7 +2069,7 @@ html {
 .pie-de-pagina-1 .text-wrapper-5 {
   position: relative;
   width: fit-content;
-  font-family: 'Helvetica-Light', Helvetica;
+  font-family: "Helvetica-Light", Helvetica;
   font-weight: 400;
   color: #35363d;
   font-size: 16px;
