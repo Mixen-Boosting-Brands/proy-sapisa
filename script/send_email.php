@@ -24,7 +24,7 @@ HTML;
 
 $mailer = new PHPMailer();
 $mailer->setFrom( $email, "$nombre" );
-$mailer->addAddress('ventas@sapisa.com.mx','Sapisa');
+$mailer->addAddress('jonathan.nunez@mixen.mx','Sapisa');
 $mailer->Subject = "Sapisa Web: Presupuestos";
 $mailer->msgHTML($body);
 $mailer->AltBody = strip_tags($body);
